@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("https://restaurant-schoppenhauer.de/images/slideshow/schoppenhauer_slideshow_2.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.overlay {
+  width: 25%;
+  height: 100vh;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay_head {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+
+.overlay_text {
+  margin-top: 1.5em;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.8em 2em;
+  background-color: #e7782e;
+  color: white;
+  border: 2px solid #f7c02b;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: all 1s;
+  cursor: pointer;
+  box-shadow: -1px 0px 5px 3px rgba(247, 192, 43, 0.5);
+}
+
+.btn:hover {
+  background-color: #ff6600;
+  transition: all 1s;
+}
+
+.whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ce73e;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  transition: all 1s;
+}
+
+.whatsapp a {
+  font-size: 2em;
+  color: white;
+}
+
+.whatsapp:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}

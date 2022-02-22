@@ -1,0 +1,13 @@
+.overlay {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.overlay_head {
+  font-size: 1.6em;
+}
+
+.whatsapp {
+  display: none;
+}
